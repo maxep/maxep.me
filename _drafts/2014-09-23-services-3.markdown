@@ -1,7 +1,7 @@
 ---
 layout: default
 img: phones.png
-category: Services
+category: Project
 title: Google Web Fonts and<br>Font Awesome Icons
 description: |
   <p class="lead">This template features the 'Lato' font,
