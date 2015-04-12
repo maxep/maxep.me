@@ -1,6 +1,6 @@
 ---
 layout: default
-img: MXSegmentedPager.gif
+img: MXSegmentedPager.png
 category: Project
 title: <a target="_blank" href="https://github.com/maxep/MXSegmentedPager">MXSegmentedPager</a>
 description: |
