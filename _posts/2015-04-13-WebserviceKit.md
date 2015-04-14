@@ -11,4 +11,4 @@ The kit is composed of 3 main projects:
 
 - [max-ws](https://github.com/maxep/max-ws): Mobile API for XML Web Services. WSDL to IOS Objective-C and Android Java Code Generator based on JAX-WS.
 - [PicoKit](https://github.com/maxep/PicoKit): A light Web service client framework targeting iOS platform.
-- [nano](https://github.com/maxep/nano): A light Web service client framework targeting Android platform.
+- [NanoKit](https://github.com/maxep/NanoKit): A light Web service client framework targeting Android platform.
