@@ -1,6 +1,6 @@
 ---
 layout: default
-img: discogs.png
+img: DiscogsAPI.png
 category: Project
 title: <a target="_blank" href="https://github.com/maxep/DiscogsAPI">DiscogsAPI</a>
 description: |
