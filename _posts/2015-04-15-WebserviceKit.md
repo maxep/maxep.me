@@ -5,7 +5,7 @@ category: Project
 title: Web service Kit
 description: |
 ---
-A collection of tools to quickly build a mobile web service client. 
+A collection of tools to quickly build a mobile web service client.
 
 The kit is composed of 3 main projects:
 

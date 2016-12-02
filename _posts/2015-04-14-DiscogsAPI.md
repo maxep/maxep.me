@@ -1,6 +1,6 @@
 ---
 layout: default
-frame: <iframe src="https://appetize.io/embed/4etdnaztcf2633cg78ch3zd0jm?device=iphone5s&scale=50&autoplay=true&orientation=portrait&deviceColor=white" width="183px" height="391px" frameborder="0" scrolling="no"></iframe>
+frame: <iframe src="https://appetize.io/embed/4etdnaztcf2633cg78ch3zd0jm?device=iphone6s&scale=75&autoplay=true&orientation=portrait&deviceColor=white&disableHome=true" width="312px" height="653px" frameborder="0" scrolling="no"></iframe>
 category: Project
 title: <a target="_blank" href="https://github.com/maxep/DiscogsAPI">DiscogsAPI</a>
 description: |

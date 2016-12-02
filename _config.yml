@@ -27,7 +27,5 @@ social:
   - title: linkedin
     url: https://fr.linkedin.com/in/maximeepain
 
-analytics :
-    provider : google 
-    google : 
-        tracking_id : 'UA-61988519-1'
+# Google services
+google_analytics: 'UA-61988519-1'
