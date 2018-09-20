@@ -1,6 +1,6 @@
 ---
 layout: default
-frame: <iframe src="https://appetize.io/embed/5u55ebp27ab4ayv65kazqa982g?device=iphone6s&scale=75&autoplay=false&orientation=portrait&deviceColor=black&disableHome=true" width="312px" height="653px" frameborder="0" scrolling="no"></iframe>
+frame: <iframe src="https://appetize.io/embed/5u55ebp27ab4ayv65kazqa982g?device=iphone8&scale=75&autoplay=false&orientation=portrait&deviceColor=black&disableHome=true" width="312px" height="653px" frameborder="0" scrolling="no"></iframe>
 category: Project
 title: <a target="_blank" href="https://github.com/maxep/MXParallaxHeader">MXParallaxHeader</a>
 description: |
