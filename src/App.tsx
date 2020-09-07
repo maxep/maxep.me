@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider, CSSReset, Box } from "@chakra-ui/core";
+import Applications, { ApplicationsProps } from "./components/applications";
+import config from "./config.json"
 
-function App() {
+type Config = {
+  title: string;
+} & ApplicationsProps;
+
+const App = (): React.ReactElement => {
+
+  const { applications } = config as Config;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <CSSReset />
+      <Box>
+        <Applications applications={applications} />
+      </Box>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
