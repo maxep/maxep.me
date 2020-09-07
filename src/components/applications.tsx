@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "@chakra-ui/core";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Application, { ApplicationProps } from "./application";
 
 export type ApplicationsProps = {
@@ -14,9 +14,14 @@ const Applications = ({
   ));
 
   return (
-    <Stack isInline shouldWrapChildren spacing={8} align="center">
-      {apps}
-    </Stack>
+    <Box>
+      <Text m={4} fontSize="2xl" fontWeight="medium">
+        Applications
+      </Text>
+      <Flex mb={8} align="center" justify="center">
+        <Flex direction={["column", "column", "column", "row"]}>{apps}</Flex>
+      </Flex>
+    </Box>
   );
 };
 

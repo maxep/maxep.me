@@ -1,0 +1,33 @@
+query User($user: String!, $limit: Int = 6) {
+  user(login: $user) {
+    avatarUrl
+    name
+    email
+    url
+    pinnedItems(first: $limit, types: [REPOSITORY]) {
+      totalCount
+      edges {
+        node {
+          ... on Repository {
+            name
+            owner {
+              login
+            }
+            nameWithOwner
+            isInOrganization
+            description
+            url
+            stargazerCount
+            forkCount
+            languages(first: 1, orderBy: { field: SIZE, direction: DESC }) {
+              nodes {
+                color
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

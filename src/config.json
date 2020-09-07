@@ -1,5 +1,11 @@
 {
-    "title": "Maxime Epain",
+    "username": "maxep",
+    "description": {
+        "title": "Hello, I'm Max!",
+        "message": "I do iOS development for work and for fun.",
+        "linkedin": "https://www.linkedin.com/in/maximeepain/",
+        "email": "maxime.epain@gmail.com"
+    },
     "applications": [
         {
             "id": 917288465,
