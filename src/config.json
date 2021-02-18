@@ -1,0 +1,40 @@
+{
+    "username": "maxep",
+    "description": {
+        "title": "Hello, I'm Max!",
+        "message": "I do iOS development for work and for fun.",
+        "linkedin": "https://www.linkedin.com/in/maximeepain/",
+        "email": "maxime.epain@gmail.com"
+    },
+    "applications": [
+        {
+            "id": 917288465,
+            "title": "Mapstr",
+            "subtitle": "Save & share your best places",
+            "beta": false,
+            "url": "https://www.mapstr.com/",
+            "icon": null,
+            "comment":
+            "When I joined Mapstr in 2016, we were 2 developers. I left the company 2 years later as CTO managing a team of 6 developers."
+        },
+        {
+            "id": 1036449551,
+            "title": "Discogs",
+            "subtitle": "Catalog, Collect & Shop Music",
+            "url": "https://www.discogs.com/app",
+            "beta": false,
+            "comment":
+            "I’m currently Lead Engineer Mobile at Discogs. Discogs is the world's foremost Database, Marketplace, and Community for music."
+        },
+        {
+            "id": 1348470981,
+            "title": "MiKee",
+            "subtitle": "Password Safe",
+            "beta": true,
+            "url": "https://mikee.maxep.me/",
+            "icon": "https://mikee.maxep.me/assets/img/app-icon-512.png",
+            "comment":
+            "I’m the author of MiKee, an open-source password manager compatible with KeePass."
+        }
+    ]
+}
