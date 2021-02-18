@@ -3,7 +3,7 @@ FROM node:alpine as build
 WORKDIR /app
 COPY . /app
 
-ARG GITHUB_PAT
+ARG REACT_APP_GITHUB_PAT
 
 RUN yarn install && \
     yarn build
