@@ -15,7 +15,7 @@
             "url": "https://www.mapstr.com/",
             "icon": null,
             "comment":
-            "When I joined Mapstr in 2016, we were 2 developers. I left the company 2 years later as CTO managing a team of 6 developers."
+            "Mapstr lets you keep track of all your favorite places around the world, tag them, and find them on your very own map! I worked at Mapstr as Lead then CTO from 2016 to 2018."
         },
         {
             "id": 1036449551,
@@ -24,17 +24,16 @@
             "url": "https://www.discogs.com/app",
             "beta": false,
             "comment":
-            "I’m currently Lead Engineer Mobile at Discogs. Discogs is the world's foremost Database, Marketplace, and Community for music."
+            "I was Lead Engineer Mobile at Discogs. Discogs is the world's foremost Database, Marketplace, and Community for music."
         },
         {
-            "id": 1348470981,
-            "title": "MiKee",
-            "subtitle": "Password Safe",
-            "beta": true,
-            "url": "https://mikee.maxep.me/",
-            "icon": "https://mikee.maxep.me/assets/img/app-icon-512.png",
+            "id": 1577807224,
+            "title": "LYL Radio",
+            "subtitle": "Independent & Non-profit webradio",
+            "url": "https://lyl.live",
+            "beta": false,
             "comment":
-            "I’m the author of MiKee, an open-source password manager compatible with KeePass."
+            "I maintain LYL radio website, apps, and infra."
         }
     ]
 }
