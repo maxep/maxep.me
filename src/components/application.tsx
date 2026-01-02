@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Box, Image, Flex, Link, Text, Icon } from "@chakra-ui/react";
 import fetchJsonp from "fetch-jsonp";
-import Rating from "react-rating";
+import Rating from "./rating";
 import { BsStarFill } from "react-icons/bs";
 
 export type ApplicationProps = {

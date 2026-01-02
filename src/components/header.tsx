@@ -7,8 +7,7 @@ import {
   IconButton,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { FaMoon, FaSun, FaLinkedinIn } from "react-icons/fa";
-import { GoMarkGithub } from "react-icons/go";
+import { FaMoon, FaSun, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { UserQuery } from "../github/types";
 
@@ -55,13 +54,18 @@ const Header = (props: HeaderProps): React.ReactElement => {
       <Flex m={4} align="center" justify="center">
         <Flex
           w={280}
-          ratio={1}
-          alignItems="center"
-          src={data?.user?.avatarUrl}
-          rounded="50%"
+          align="center"
           borderWidth={1}
+          borderRadius="50%"
+          overflow="hidden"
         >
-          <Image rounded="50%" src={data?.user?.avatarUrl} />
+          <Image
+            w="100%"
+            h="100%"
+            objectFit="cover"
+            rounded="50%"
+            src={data?.user?.avatarUrl}
+          />
         </Flex>
       </Flex>
       <Flex direction="column" justifyContent="center" p={4} marginX={4}>
@@ -80,7 +84,7 @@ const Header = (props: HeaderProps): React.ReactElement => {
             variant="ghost"
             color={iconColor}
             onClick={() => open(data?.user?.url)}
-            icon={<GoMarkGithub />}
+            icon={<FaGithub />}
           />
           <IconButton
             my={4}

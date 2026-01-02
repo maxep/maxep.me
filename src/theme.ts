@@ -1,10 +1,10 @@
 import { extendTheme } from "@chakra-ui/react";
-import { mode } from "@chakra-ui/theme-tools";
+import { mode, StyleFunctionProps } from "@chakra-ui/theme-tools";
 
 // Let's say you want to add custom colors
 export default extendTheme({
   styles: {
-    global: (props) => ({
+    global: (props: StyleFunctionProps) => ({
       body: {
         fontFamily: "body",
         color: mode("gray.900", "whiteAlpha.900")(props),
@@ -16,17 +16,17 @@ export default extendTheme({
   components: {
     Text: {
       variants: {
-        description: (props) => ({
+        description: (props: StyleFunctionProps) => ({
           color: mode("gray.600", "whiteAlpha.800")(props),
         }),
       },
     },
     Link: {
-      baseStyle: (props) => ({
+      baseStyle: (props: StyleFunctionProps) => ({
         color: mode("#0366D6", "#58A6FF")(props),
       }),
       variants: {
-        app: (props) => ({
+        app: (props: StyleFunctionProps) => ({
           color: mode("gray.600", "whiteAlpha.800")(props),
         }),
       },
