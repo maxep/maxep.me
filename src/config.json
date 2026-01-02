@@ -12,6 +12,7 @@
             "title": "Mapstr",
             "subtitle": "Save & share your best places",
             "beta": false,
+            "country": "fr",
             "url": "https://www.mapstr.com/",
             "icon": null,
             "comment":
@@ -23,6 +24,7 @@
             "subtitle": "Catalog, Collect & Shop Music",
             "url": "https://www.discogs.com/app",
             "beta": false,
+            "country": "us",
             "comment":
             "I was Lead Engineer Mobile at Discogs. Discogs is the world's foremost Database, Marketplace, and Community for music."
         },
@@ -32,6 +34,7 @@
             "subtitle": "Independent & Non-profit webradio",
             "url": "https://lyl.live",
             "beta": false,
+            "country": "fr",
             "comment":
             "I maintain LYL radio website, apps, and infra."
         }

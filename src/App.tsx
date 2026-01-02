@@ -23,6 +23,7 @@ const App = (): React.ReactElement => {
 
   const { data } = useUserQuery({
     variables: { user: username },
+    errorPolicy: "all",
   });
 
   return (

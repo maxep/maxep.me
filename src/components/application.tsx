@@ -10,6 +10,7 @@ export type ApplicationProps = {
   subtitle: string;
   comment: string;
   beta: boolean;
+  country: string;
   url?: string;
   icon?: string;
   rating?: {
@@ -26,7 +27,9 @@ const useApplication = (props: ApplicationProps): ApplicationProps => {
   const [application, setApplication] = useState(props);
 
   useEffect(() => {
-    fetchJsonp(`https://itunes.apple.com/lookup?id=${props.id}`)
+    fetchJsonp(
+      `https://itunes.apple.com/lookup?id=${props.id}&country=${props.country}`
+    )
       .then((data) => data.json())
       .then((json) => {
         if (json.resultCount !== 1) return;
@@ -42,7 +45,7 @@ const useApplication = (props: ApplicationProps): ApplicationProps => {
           },
         }));
       });
-  }, [props.id]);
+  }, [props.id, props.country]);
 
   return application;
 };
